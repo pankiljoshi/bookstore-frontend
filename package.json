@@ -12,14 +12,14 @@
     "precommit": "pretty-quick --staged"
   },
   "devDependencies": {
-    "@tailwindcss/postcss7-compat": "^2.2.9",
     "autoprefixer": "^9",
     "postcss": "^7",
     "prettier": "2.3.2",
-    "react-scripts": "^4.0.3",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "react-scripts": "^4.0.3"
   },
   "dependencies": {
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "@tailwindcss/postcss7-compat": "^2.2.9",
     "@craco/craco": "^6.2.0",
     "axios": "^0.21.3",
     "connected-react-router": "4.5.0",
