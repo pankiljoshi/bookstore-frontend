@@ -16,7 +16,7 @@ const savePageView = (pageView) => async (dispatch) => {
       const { data } = await Axios.post(`${API_BASE_ADDRESS}/page-views`, {
         url: window.location.href,
         ip: ip,
-        user_agent: 'test'
+        user_agent: navigator.userAgent
       });
       dispatch({ type: PAGEVIEW_SAVE_SUCCESS, payload: data });
     } catch (error) {
