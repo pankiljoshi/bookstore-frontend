@@ -1,1 +1,1 @@
-export const API_BASE_ADDRESS = typeof process.env.API_BASE_ADDRESS != 'undefined' ? process.env.API_BASE_ADDRESS : 'http://183.28.1.1/api';
+export const API_BASE_ADDRESS = process.env.REACT_APP_API_BASE_ADDRESS;

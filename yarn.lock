@@ -1746,6 +1746,7 @@
     defer-to-connect "^1.0.1"
 
 "@tailwindcss/postcss7-compat@^2.2.9", "tailwindcss@npm:@tailwindcss/postcss7-compat":
+  name tailwindcss
   version "2.2.9"
   resolved "https://registry.npmjs.org/@tailwindcss/postcss7-compat/-/postcss7-compat-2.2.9.tgz"
   integrity sha512-cE0ed0whqMPPih/mgo205e/Fdl/N9ZC8Z/0OyUBGWuvgNjNhsrT/avpuoYECI58FDTMT2tm5kKGJsJsl+sqh7A==
